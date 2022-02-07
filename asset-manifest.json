@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca1277c4.css",
-    "main.js": "/static/js/main.1a11a2ef.js",
-    "index.html": "/index.html",
-    "main.ca1277c4.css.map": "/static/css/main.ca1277c4.css.map",
-    "main.1a11a2ef.js.map": "/static/js/main.1a11a2ef.js.map"
+    "main.css": "/react-css-practice/static/css/main.ca1277c4.css",
+    "main.js": "/react-css-practice/static/js/main.1a11a2ef.js",
+    "index.html": "/react-css-practice/index.html",
+    "main.ca1277c4.css.map": "/react-css-practice/static/css/main.ca1277c4.css.map",
+    "main.1a11a2ef.js.map": "/react-css-practice/static/js/main.1a11a2ef.js.map"
   },
   "entrypoints": [
     "static/css/main.ca1277c4.css",
