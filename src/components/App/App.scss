@@ -1,4 +1,4 @@
-@import './_variables.scss';
+@use '../../styles/variables';
 
 .App {
   text-align: center;
@@ -16,7 +16,7 @@
 }
 
 .App-header {
-  background-color: $grey-dark;
+  background-color: variables.$grey-dark;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
 }
 
 .App-link {
-  color: $blue-light;
+  color: variables.$blue-light;
 }
 
 @keyframes App-logo-spin {
