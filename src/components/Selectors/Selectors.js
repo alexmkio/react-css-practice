@@ -17,8 +17,6 @@ let example4 = `.adjacent_sibling_combinator + p {
   color: cyan;
 }`
 
-let example5 = ``
-
   return (
     <>
       <h2>

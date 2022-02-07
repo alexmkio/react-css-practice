@@ -10,7 +10,7 @@ let example1 = ``
       </h2>
 
       <section>
-        <h3></h3>
+        <h3>heading</h3>
         <p></p>
         <code>
           {example1}
