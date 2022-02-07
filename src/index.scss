@@ -10,5 +10,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   display: block;
-  white-space: pre-wrap   
+  white-space: pre-wrap;
+  background-color: lightgray;
+}
+
+h2 {
+  color: green;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  border: 2px dashed red;
+  padding: 2em;
 }

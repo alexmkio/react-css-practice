@@ -1,0 +1,27 @@
+.inheritance { 
+  color: red; 
+}
+
+.inheritance { 
+  color: blue; 
+}
+
+.specificity { 
+  color: red; 
+}
+      
+h4 { 
+  color: blue; 
+}
+
+.styling_inline strong {
+  display: inline;
+}
+
+.styling_block strong {
+  display: block;
+}
+
+.styling_inline_block strong {
+  display: inline flow-root;
+}
