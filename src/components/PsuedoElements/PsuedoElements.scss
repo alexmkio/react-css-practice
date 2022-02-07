@@ -1,0 +1,24 @@
+q::before {
+  content: "«";
+  color: blue;
+}
+
+q::after {
+  content: "»";
+  color: red;
+}
+
+.first_letter::first-letter {
+  font-size: 200%;
+  text-transform: uppercase;
+}
+
+.first_line::first-line {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.selection::selection {
+  background-color: pink;
+}
