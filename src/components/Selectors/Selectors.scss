@@ -1,0 +1,23 @@
+div strong {
+  color: blue;
+}
+
+.child_combinator > p {
+  color: red;
+}
+
+.general_sibling_combinator {
+  color: black;
+}
+
+.adjacent_sibling_combinator {
+  color: black;
+}
+
+h4 ~ p {
+  color: lime;
+}
+
+.adjacent_sibling_combinator + p {
+  color: cyan;
+}
