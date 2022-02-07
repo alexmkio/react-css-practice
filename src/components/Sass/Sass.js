@@ -84,7 +84,7 @@ function Sass() {
         Nesting & Psuedo-selectors
       </h3>
       <section>
-        <a>I am a link</a>
+        <a href='https://sass-lang.com/guide'>I am a link</a>
         <code>
           {exampleThree}
         </code>
