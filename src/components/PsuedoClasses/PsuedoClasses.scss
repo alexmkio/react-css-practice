@@ -1,0 +1,101 @@
+.hover:hover {
+  background-color: orange;
+}
+
+.active:active {
+  background-color: blue;
+}
+
+.focus:focus {
+  background-color: yellow;
+}
+
+.optional input:optional {
+  background-color: pink;
+}
+
+.required input:required {
+  background-color: pink;
+}
+
+.enabled input:enabled {
+  background-color: pink;
+}
+
+.disabled input:disabled {
+  background-color: pink;
+}
+
+.checked input:checked + label {
+  color: red;
+}
+
+.checked2 input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 16px hotpink;
+}
+
+.valid input + span {
+  position: relative;
+}
+
+.valid input + span::before {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+}
+
+.valid input:valid {
+  background-color: lime;
+}
+
+.valid input:invalid {
+  border: 2px solid red;
+  background-color: pink;
+}
+
+.valid input:invalid + span::before {
+  content: '✖';
+  color: red;
+}
+
+.valid input:valid + span::before {
+  content: '✓';
+  color: green;
+}
+
+.in-range input + span {
+  position: relative;
+}
+
+.in-range input + span::before {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+}
+
+.in-range input:in-range {
+  background-color: lime;
+}
+
+.in-range input:out-of-range {
+  border: 2px solid red;
+  background-color: pink;
+}
+
+.in-range input:out-of-range + span::before {
+  content: '✖';
+  color: red;
+}
+
+.in-range input:in-range + span::before {
+  content: '✓';
+  color: green;
+}
+
+.read-only input:read-only {
+  background-color: pink;
+}
+
+.read-only input:read-write {
+  background-color: lime;
+}
