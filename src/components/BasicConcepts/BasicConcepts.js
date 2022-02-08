@@ -30,7 +30,7 @@ let example3 = `.styling_inline strong {
 
   return (
     <>
-      <h2>
+      <h2 id="basic_concepts">
         Basic Concepts
       </h2>
 

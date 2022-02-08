@@ -105,7 +105,7 @@ let example11 = `.read-only input:read-only {
 
   return (
     <>
-      <h2>
+      <h2 id="psuedo_classes">
         Psuedo-Classes
       </h2>
 

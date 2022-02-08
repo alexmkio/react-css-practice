@@ -28,7 +28,7 @@ let example4 = `.selection::selection {
 
   return (
     <>
-      <h2>
+      <h2 id="psuedo_elements">
         Psuedo-Elements
       </h2>
 

@@ -19,7 +19,7 @@ let example4 = `.adjacent_sibling_combinator + p {
 
   return (
     <>
-      <h2>
+      <h2 id="selectors">
         Selectors
       </h2>
 
