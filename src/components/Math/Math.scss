@@ -1,0 +1,23 @@
+.calc1 {
+  font-size: 1rem;
+}
+
+.calc2 {
+  font-size: calc(1rem + 1vw);
+}
+
+.clamp {
+  font-size: clamp(1rem, 2vw, 3rem);
+}
+
+.min {
+  font-size: min(2rem, 2em, 2vw, 20px);
+}
+
+.max {
+  font-size: max(2rem, 2em, 2vw, 20px);
+}
+
+.abs {
+  font-size: abs(-20px);
+}
