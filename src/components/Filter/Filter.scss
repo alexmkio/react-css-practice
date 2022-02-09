@@ -1,0 +1,15 @@
+.blur {
+  filter: blur(4px);
+}
+
+.opacity {
+  filter: opacity(50%);
+}
+
+.drop-shadow {
+  filter: drop-shadow(1rem 1rem 4px #4444dd);
+}
+
+.grayscale {
+  filter: grayscale(0.50);
+}
