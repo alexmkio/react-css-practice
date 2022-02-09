@@ -1,0 +1,15 @@
+ol {
+  counter-reset: listCounter;
+}
+
+li {
+  counter-increment: listCounter;
+}
+
+.counter li::after {
+  content: counter(listCounter, upper-roman);
+}
+
+li::marker {
+  content:  counters(listCounter, '.') ') ';
+}
